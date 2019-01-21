@@ -3,7 +3,7 @@
 ### Overview 
 
 This bot was designed to take specific instructions from the user and execute the instructions accordingly via Slack. This bot also 
-maintains its connection through WebSockets but does not utilize Slack's Real Time messaging APIs. The library being utilized
+maintains its connection through WebSockets but does not utilize Slack's Real Time messaging APIs as efficiently. The library being utilized
 is [slack-ruby-bot](https://github.com/slack-ruby/slack-ruby-bot) which does most of the work, it's built on top of 
 [slack-ruby-client](https://github.com/slack-ruby/slack-ruby-client). This library enables us to write bot commands for a single
 instance or team. 
